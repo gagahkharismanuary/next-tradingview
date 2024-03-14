@@ -11,7 +11,6 @@ export const TVChartContainer = (props: Partial<ChartingLibraryWidgetOptions>) =
 			symbol: props.symbol,
 			// BEWARE: no trailing slash is expected in feed URL
 			datafeed: new (window as any).Datafeeds.UDFCompatibleDatafeed(
-				// "https://backend.mansek.dev/udf",
 				"https://demo_feed.tradingview.com",
 				undefined,
 				{
